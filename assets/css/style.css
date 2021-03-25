@@ -8,6 +8,10 @@
     color: #33475b;
 }
 
+p{
+    line-height: 2rem;
+}
+
 /* Utility Rules */
 
 .clearfix::after{
@@ -25,10 +29,26 @@
     border-radius: 5px;
     background-color: #fe775a;
     color: white;
-    padding: 10px 20px;
+    padding: 10px 15px;
     line-height: 30px;
 }
 
+.btn_big{
+    border-radius: 5px;
+    background-color: #fe775a;
+    color: white;
+    font-weight: 500;
+    padding: 25px 40px;
+    display: inline-block;
+}
+
+.mtb_20{
+    margin: 20px 0;
+}
+
+.fw_500{
+    font-weight: 500;
+}
 /* Header */
 .topmenu{
     line-height: 100px;
@@ -78,7 +98,6 @@
 
 .main_menu{
     line-height: 100px;
-    background-color: green;
     font-weight: 500;
 }
 #logo{
@@ -107,6 +126,36 @@
 
 #arrow{
     margin-left: 10px;
+}
+
+
+.jumbotron{
+    height: 600px;
+    background-image: url('../img/jumbotron.png');
+    background-position: 105% 0;
+    background-repeat: no-repeat;
+    background-color: #fff2ee;
+    position: relative
+}
+
+.jumbotron_text{
+    width: 35%;
+    position: absolute;
+    top: 10%;
+}
+
+h1{
+    font-size: 55px;
+    margin-bottom: 30px;
+}
+
+.trial_btn{
+    margin: 30px 0;
+}
+
+.trial_text{
+    font-size: 0.8rem;
+    font-weight: 400;
 }
 
 /* Main */
