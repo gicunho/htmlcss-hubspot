@@ -17,7 +17,7 @@
 }
 
 .container{
-    width: 70%;
+    width: 75%;
     margin: auto;
 }
 
@@ -33,11 +33,11 @@
 .topmenu{
     line-height: 100px;
     background-color: #f4f9fd;
-    font-weight: 600;
+    font-weight: 500;
     border-bottom: 1px solid #33475b;
 }
 
-.topmenu_nav nav, .mainmenu_nav nav{
+.topmenu_nav nav{
     width: 50%;
     float: left;
 }
@@ -57,7 +57,7 @@
     color: #fe775a;
 }
 
-#top_rightmenu a{
+#top_leftmenu a{
     text-decoration: none;
 }
 
@@ -79,15 +79,34 @@
 .main_menu{
     line-height: 100px;
     background-color: green;
+    font-weight: 500;
 }
-
+#logo{
+    width:30%;
+    float: left;
+}
 #main_rightmenu{
     text-align: right;
+    width: 70%;
+    float: left;
+}
+
+#logo > img {
+    vertical-align: middle;
 }
 
 #main_rightmenu > ul > li{
     list-style-type: none;
     display: inline-block;
+}
+
+#main_rightmenu > ul > li a{
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+#arrow{
+    margin-left: 10px;
 }
 
 /* Main */
