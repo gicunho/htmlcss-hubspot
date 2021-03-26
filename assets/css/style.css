@@ -207,7 +207,6 @@ h3{
 /* Main */
 main{
     background-color: #f4f9fd;
-    height: 1000px;
     padding: 50px 0;
 }
 
@@ -301,5 +300,53 @@ main{
     list-style-type: none;
     text-align: left;
 }
+
+
+#blu_section{
+    background: linear-gradient(90deg, rgba(0, 168, 186, 1), rgba(0, 186, 169, 1));
+    text-align: center;
+    padding: 50px 0 100px 0;
+}
+
+#blu_section h2, #blu_section p, #blu_section span{
+    color: white;
+}
+
+#blu_section span{
+    display: block;
+}
+
+#datas_row1 > div, #datas_row2 > div{
+    width: calc(100%/4);
+    float: left;
+    padding: 20px 0;
+}
+
+#datas_row1 > div{
+    border-bottom: 2px solid white;
+}
+
+#datas_row1 > div:not(:last-child), #datas_row2 > div:not(:last-child){
+    border-right: 2px solid white;
+}
+
+.big_text{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.small_text{
+    font-size: 0.8rem;
+}
+
+.big_text::after{
+    content: "+";
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+
 
 /* Footer */
