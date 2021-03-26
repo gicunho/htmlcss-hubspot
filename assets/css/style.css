@@ -59,8 +59,9 @@ p{
     font-weight: 500;
 }
 
-.ls_-1{
-    letter-spacing: -1px;
+.bg_lg{
+    background-color: #f4f9fd;
+    padding: 50px 0;
 }
 
 .box_shadow{
@@ -115,7 +116,7 @@ h3{
 }
 
 #language{
-    padding-right: 15px;
+    padding-right: 20px;
 }
 
 #contact_us{
@@ -129,7 +130,7 @@ h3{
     color: #fe775a;
 }
 
-#top_leftmenu a{
+header a{
     text-decoration: none;
 }
 
@@ -140,18 +141,15 @@ h3{
 #top_rightmenu > a{
     display: inline-block;
     margin-left: 30px;
-    text-decoration: none;
 }
 
 #top_rightmenu{
     text-align: right;
 }
 
-
 .main_menu{
     line-height: 100px;
     font-weight: 500;
-    letter-spacing: -1px;
 }
 #logo{
     width:30%;
@@ -167,21 +165,18 @@ h3{
     vertical-align: middle;
 }
 
-#main_rightmenu > ul > li{
+.topmenu li, .main_menu li{
     list-style-type: none;
     display: inline-block;
 }
 
 #main_rightmenu > ul > li a{
-    text-decoration: none;
     margin-left: 25px;
 }
 
 #arrow{
     margin-left: 10px;
 }
-
-
 .jumbotron{
     height: 600px;
     background-image: url('../img/jumbotron.png');
@@ -205,11 +200,6 @@ h3{
 }
 
 /* Main */
-.bg_lg{
-    background-color: #f4f9fd;
-    padding: 50px 0;
-}
-
 #top_maincontent{
     text-align:center;
     width: 45%;
@@ -224,10 +214,13 @@ h3{
     padding: 80px 100px;
 }
 
+#left_crm, #right_crm{
+    float: left;
+}
+
 #left_crm{
     width: 20%;
     text-align: center;
-    float: left;
 }
 
 #left_crm img{
@@ -236,7 +229,6 @@ h3{
 
 #right_crm{
     width: 70%;
-    float: left;
     margin-left: 10%;
 }
 
@@ -426,10 +418,11 @@ footer{
     float: left;
 }
 
-.footer_column ul li a{
+footer a{
     color: #cbd6e2;
     line-height: 2.5rem;
     text-decoration: none;
+    font-weight: 500;
 }
 
 .footer_column ul li:first-child a{
@@ -463,9 +456,6 @@ footer{
     color: #cbd6e2
 }
 
-#languages a{
-    margin-right: 20px;
-}
 
 #footer_legal{
     padding: 50px 0;
@@ -473,7 +463,6 @@ footer{
 #footer_legal > div{
     float: left;
     width: 50%;
-
 }
 
 #footer_legal p{
@@ -484,12 +473,26 @@ footer{
     text-align: right;
 }
 
-.right_legalmenu a{
-    color:#cbd6e2;
-    text-decoration: none;
+.right_legalmenu a, #languages a{
     margin-left: 20px;
 }
 
-.right_legalmenu li{
+.right_legalmenu li, #languages li{
     display: inline-block;
+}
+
+/* hover */
+
+header a:hover{
+    color: #007a8c;
+    text-decoration: underline;
+}
+
+footer a:hover{
+    color: #7fd1de;
+    text-decoration: underline;
+}
+
+.social_contacts a:hover i{
+    color: #7fd1de;
 }
