@@ -205,7 +205,7 @@ h3{
 }
 
 /* Main */
-main{
+.bg_lg{
     background-color: #f4f9fd;
     padding: 50px 0;
 }
@@ -347,6 +347,10 @@ main{
     vertical-align: middle;
 }
 
+#final_section{
+    background-color: white;
+}
+
 .customers{
     text-align: center;
 }
@@ -390,6 +394,25 @@ main{
 .customers_logo img{
 object-fit: contain;
 width: 100%;
-/* background-color: blue;
- */}
+}
+
+#subscribe_section{
+    background-color: white;
+    margin-top: 150px;
+}
+
+.subrscribe_left{
+    width: 35%;
+    float: left;
+}
+
+.subrsribe_picture{
+    text-align: right;
+    width: 65%;
+    float: left;
+}
+
+.subrsribe_picture > img{
+    height: 350px;
+}
 /* Footer */
