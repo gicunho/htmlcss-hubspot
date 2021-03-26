@@ -19,28 +19,28 @@
 <body>
     <!-- Site Header -->
     <header>
-        <div class="topmenu">
+        <nav class="topmenu fw_500 ls_-1">
             <div class="topmenu_nav container clearfix">
-                <nav id="top_leftmenu">
+                <div id="top_leftmenu">
                     <a href=""><span id="language"><i class="fas fa-globe-europe"></i> English <i class="fas fa-chevron-down"></i></span></a> 
                     <a href=""><span id="contact_us">Contact us</span></a> 
-                </nav>
+                </div>
 
-                <nav id="top_rightmenu">
+                <div id="top_rightmenu">
                     <a href="#"><div class="search"><i id="search_icon" class="fas fa-search"></i></div></a> 
                     <a href="#"><div class="login btn_sm">Log in</div></a> 
                     <a href="#"><div class="trial btn_sm">GetHubspotFree</div></a> 
-                </nav>
+                </div>
             </div>
-        </div>
+        </nav>
 
-        <div class="main_menu">
+        <nav class="main_menu">
             <div class="mainmenu_nav container clearfix">
-                <nav id="logo">
-                    <img src="./assets/img/logo.svg" alt="">
-                </nav>
+                <div id="logo">
+                    <a href=""><img src="./assets/img/logo.svg" alt=""></a> 
+                </div>
 
-                <nav id="main_rightmenu">
+                <div id="main_rightmenu">
                     <ul>
                         <li><a href="#">Software<i id="arrow" class="fas fa-chevron-down"></i></a></li>
                         <li><a href="#">Pricing</a></li>
@@ -48,9 +48,9 @@
                         <li><a href="#">Partners<i id="arrow" class="fas fa-chevron-down"></i></a></li>
                         <li><a href="#">About<i id="arrow" class="fas fa-chevron-down"></i></a></li>
                     </ul>
-                </nav>
+                </div>
             </div>
-        </div>
+        </nav>
 
         <div class="jumbotron">
             <section class="jumbotron_section container">
@@ -61,15 +61,38 @@
                     <div class="trial_text">Get started with FREE tools, and upgrade as you grow.</div> 
                 </div>
             </section>
-            
         </div>
-
+        <div id="separator"></div>
     </header>
     <!-- /Site Header -->
 
     <!-- Site Main Content -->
-    <main>
+    <main class="clearfix">
+        <section id="top_maincontent" class="container">
+            <img src="./assets/img/cube.webp" alt="cubi">
+            <h2>Powerful Alone. Better Together</h2>
+            <p class="fw_500 mtb_20 ls_-1">HubSpot offers a full stack of software for marketing, sales, and customer service, with a completely free CRM at its core. They're powerful alone - but even better when used together.</p>
+        </section>
 
+        <section id="crm" class="container clearfix mtb_50 box_shadow">
+            <div id="left_crm">
+                <img src="./assets/img/book.svg" alt="">
+                <div class="btn_big mtb_20">Learn More</div>
+            </div>
+            <div id="right_crm">
+                <h3>Free HubSpot CRM</h3>
+                <p class="mtb_20 fw_500">Everything you need to organize, track, and build better relationships with leads and customers. Yes, it's 100% free. Forever.</p>
+                <div id="popolar_feature" class="clearfix">
+                    <span id="popolar_text">popolar feature</span>
+                    <div id="popolar_line"></div>
+                </div>
+                <ul>
+                    <li class="checkbox">Contact Insight</li>
+                    <li class="checkbox">Deals</li>
+                    <li class="checkbox">Task</li>
+                </ul>
+            </div>
+        </section>
     </main>
     <!-- Site Main Content -->
 
