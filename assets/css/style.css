@@ -4,12 +4,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: #33475b;
 }
 
 p{
     line-height: 2rem;
+    font-weight: 400;
 }
 
 /* Utility Rules */
@@ -29,8 +30,8 @@ p{
     border-radius: 5px;
     background-color: #fe775a;
     color: white;
-    padding: 10px 15px;
-    line-height: 30px;
+    padding: 10px;
+    line-height: 20px;
 }
 
 .btn_big{
@@ -38,7 +39,7 @@ p{
     background-color: #fe775a;
     color: white;
     font-weight: 500;
-    padding: 25px 40px;
+    padding: 20px 35px;
     display: inline-block;
 }
 
@@ -48,6 +49,10 @@ p{
 
 .mtb_50{
     margin: 50px auto;
+}
+
+.mt_50{
+    margin-top: 50px;
 }
 
 .fw_500{
@@ -76,6 +81,7 @@ h2{
 
 h3{
     font-size: 25px;
+    margin-bottom: 30px;
 }
 
 .trial_btn{
@@ -86,6 +92,14 @@ h3{
     font-size: 0.8rem;
     font-weight: 400;
     letter-spacing: -0.5px;
+}
+
+.checkbox::before{
+    content:"\f058";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #fe775a;
+    margin-right: 10px;
 }
 
 /* Header */
@@ -207,7 +221,7 @@ main{
 }
 #crm{
     background-color: white;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 80px 100px;
 }
 
@@ -218,7 +232,7 @@ main{
 }
 
 #left_crm img{
-    width: 180px;
+    width: 150px;
 }
 
 #right_crm{
@@ -235,6 +249,9 @@ main{
 #popolar_text{
     width: 40%;
     float: left;
+}
+
+.popolar_text_style{
     text-transform: uppercase;
     font-weight: 800;
     font-size: 20px;
@@ -256,12 +273,33 @@ main{
     font-weight: 500;
 }
 
-
-.checkbox::before{
-    content:"\f058";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    color: #fe775a;
-    margin-right: 10px;
+.column3{
+    width: 30%;
+    background-color: white;
+    float: left;
+    border-radius: 5px;
+    padding: 20px 50px;
+    text-align: center;
 }
+
+.column3:nth-child(2){
+    margin: 0 5%;
+}
+
+.column3 img {
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.column3 p {
+    height: 200px;
+    vertical-align: top;
+    border-bottom: 2px solid #899397;
+}
+
+.column3 > ul > li{
+    list-style-type: none;
+    text-align: left;
+}
+
 /* Footer */
