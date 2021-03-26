@@ -347,6 +347,49 @@ main{
     vertical-align: middle;
 }
 
+.customers{
+    text-align: center;
+}
 
+.customers > div {
+    float: left;
+}
 
+#customers_numbers{
+    width: 25%;
+    height: 100px;
+    padding: 0 70px;
+    text-align: left;
+}
+
+#customers_numbers h2{
+    font-size: 50px;
+}
+
+#customers_logo_section{
+    width: 55%;
+    margin: 0 10%;
+ }
+
+.customers_logo{
+    width: calc(100%/4);
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    float: left;
+    padding: 0 20px;
+    margin-bottom: 10px;
+/*     background-color: brown;
+ */
+}
+
+.customers_logo:not(:nth-child(7)){
+    margin-top: 15px;
+}
+
+.customers_logo img{
+object-fit: contain;
+width: 100%;
+/* background-color: blue;
+ */}
 /* Footer */
