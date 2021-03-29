@@ -655,6 +655,11 @@ footer a:hover{
 }
 
     /* software dropdown */
+
+#software_dropdown{
+    right: -400px;
+}
+
 .software_dropdown_top{
         width: 500px;
     }
