@@ -141,7 +141,6 @@ header a{
 #top_rightmenu > a{
     display: inline-block;
     margin-left: 30px;
-    text-decoration: 0;
 }
 
 #top_rightmenu{
@@ -511,4 +510,51 @@ footer a:hover{
 
 .column3:hover, #crm:hover{
     transform: scale(1.01);
+}
+
+/* chat (bonus) */
+#chat_bonus{
+    position:fixed;
+    bottom: 0px;
+    right: 20px;
+    width: 300px;
+    height: 230px;
+}
+
+#chat_window{
+    height: 120px;
+    width: 300px;
+    padding: 25px;
+    background-color: white;
+    position: relative;
+    border-radius: 5px;
+}
+
+#chat_bubble{
+    position: absolute;
+    bottom: -20px;
+    right: 20%;
+}
+
+#chat_button{
+    width: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    background-color: #425b79;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
+
+#chat_button img{
+    vertical-align: middle;
+}
+
+#bot_avatar{
+    width: 50px;
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
 }
