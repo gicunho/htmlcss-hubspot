@@ -24,7 +24,18 @@
             <div class="topmenu_nav container clearfix">
                 <div id="top_leftmenu">
                     <ul>
-                        <li id="language"><a href=""><i class="fas fa-globe-europe"></i> English <i class="fas fa-chevron-down"></i></span></a></li>
+                        <li id="language" class="dropdown"><a href=""><i class="fas fa-globe-europe"></i> English <i class="fas fa-chevron-down"></i></span></a>
+                            <div id="language_dropdown" class="dropdown-content box_shadow">
+                                <ul>
+                                    <li><a href="#">日本語</a></li>
+                                    <li><a href="#">Deutsch</a></li>
+                                    <li><a href="#">English</a></li>
+                                    <li><a href="#">Español</a></li>
+                                    <li><a href="#">Português</a></li>
+                                    <li><a href="#">Français</a></li>
+                                </ul>
+                            </div>
+                        </li>
                         <li ><a href="" id="contact_us">Contact us</a></li>
                     </ul>
                 </div>
@@ -47,9 +58,110 @@
                     <ul>
                         <li><a href="#">Software<i id="arrow" class="fas fa-chevron-down"></i></a></li>
                         <li><a href="#">Pricing</a></li>
-                        <li><a href="#">Resources<i id="arrow" class="fas fa-chevron-down"></i></a></li>
-                        <li><a href="#">Partners<i id="arrow" class="fas fa-chevron-down"></i></a></li>
-                        <li><a href="#">About<i id="arrow" class="fas fa-chevron-down"></i></a></li>
+                        <li id="resources" class="dropdown"><a href="#">Resources<i id="arrow" class="fas fa-chevron-down"></i></a>
+                            <div id="resources_dropdown" class="dropdown-content box_shadow clearfix">
+                                <div class="resources_dropdown_row clearfix">
+                                    <div class="resources_dropdown_column">
+                                        <h4>Blog</h4>
+                                        <p>Read marketing, sales, agency, and customer success blog content.</p>
+                                    </div>
+
+                                    <div class="resources_dropdown_column">
+                                        <h4>Customer Stories</h4>
+                                        <p>Hear from the businesses that use HubSpot to grow better every day.</p>
+                                    </div>
+
+                                    <div class="resources_dropdown_column">
+                                        <h4>Developers</h4>
+                                        <p>Create apps and custom integrations for businesses using HubSpot.</p>
+                                    </div>
+                                </div>
+
+                                <div class="resources_dropdown_row clearfix">
+                                    <div class="resources_dropdown_column">
+                                        <h4>Ebooks, Guides & More</h4>
+                                        <p>Get access to HubSpot's most popular marketing resources.</p>
+                                    </div>
+
+                                    <div class="resources_dropdown_column">
+                                        <h4>Onboarding & Services</h4>
+                                        <p>Find training and consulting services to help you thrive with HubSpot</p>
+                                    </div>
+
+                                    <div class="resources_dropdown_column">
+                                        <h4>Research & Reports</h4>
+                                        <p>Get up-to-date research and data on hot business trends.</p>
+                                    </div>
+                                </div>
+
+                                <div class="resources_dropdown_row clearfix">
+                                    <div class="resources_dropdown_column">
+                                        <h4>Free Courses & Certifications</h4>
+                                        <p>Take courses on the latest business trends, taught by industry experts.</p>
+                                    </div>
+
+                                    <div class="resources_dropdown_column">
+                                        <h4>What is Inbound?</h4>
+                                        <p>Get a primer on how inbound helps your business grow better.</p>
+                                    </div>
+
+                                    <div class="resources_dropdown_column">
+                                        <h4>Customer Support</h4>
+                                        <p>Get help if you have questions about using HubSpot software.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </li>
+                        
+                        <li id="partners" class="dropdown">
+                            <a href="#">Partners<i id="arrow" class="fas fa-chevron-down"></i></a>
+                            <div id="partners_dropdown" class="dropdown-content box_shadow clearfix">
+                                <div class="partners_dropdown_column">
+                                    <a href="#"><h4>Hire a Partner</h4></a> 
+                                    <p>Find a partner in our global community of service providers who can help you grow.</p>
+                                </div>
+
+                                <div class="partners_dropdown_column">
+                                    <a href="#"><h4>Partner With Us</h4></a>
+                                    <p>Find the right partner program to help your business grow.</p>
+                                </div>
+                            </div>
+                        </li>
+                        
+                        <li id="about" class="dropdown"><a href="#">About<i id="arrow" class="fas fa-chevron-down"></i></a>
+                            <div id="about_dropdown" class="dropdown-content box_shadow clearfix">
+                                <div class="about_dropdown_column">
+                                    <ul>
+                                        <li>Company</li>
+                                        <li><a href="#">About us</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                        <li><a href="#">Management Team</a></li>
+                                        <li><a href="#">Board of Directors</a></li>
+                                        <li><a href="#">Careers</a></li>
+
+                                    </ul>
+                                </div>
+
+                                <div class="about_dropdown_column">
+                                    <ul>
+                                        <li>News</li>
+                                        <li><a href="#">HubSpot News</a></li>
+                                        <li><a href="#">Press Resources</a></li>
+                                        <li><a href="#">Speakers</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="about_dropdown_column">
+                                    <ul>
+                                        <li>Investors</li>
+                                        <li><a href="#">Investor Relations</a></li>
+
+                                    </ul>
+                                </div>
+  
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -336,13 +448,12 @@
     <!-- /Site Footer -->
     <section id="chat_bonus">
         <div id="chat_window" class="box_shadow">
+            <span>X</span>
             <img id="bot_avatar" src="./assets/img/bot-avatar.webp" alt="">
             <p>&#128075; Want to chat about HubSpot? I'm here to help you find your way.</p>
             <img id="chat_bubble" src="./assets/img/initial-message-bubble-tail.svg" alt="">
         </div>
         
-        
-
         <div id="chat_button">
             <img src="./assets/img/launcher-open-icon.svg" alt="">
         </div>
